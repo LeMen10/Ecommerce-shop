@@ -1,0 +1,383 @@
+@charset "UTF-8";
+@media (min-width: 1024px) {
+  .col-2-4 {
+    flex: 0 0 auto;
+    width: 20%; }
+  .col-3 {
+    flex: 0 0 auto;
+    width: 25%; }
+  .col-xl-6 {
+    flex: 0 0 auto;
+    width: 50%; }
+  .col-1-2 {
+    flex: 0 0 auto;
+    width: 10%;
+    padding: 0 10px; }
+  .col-xl-4 {
+    flex: 0 0 auto;
+    width: 33.33333333334%; }
+  .col-xl-8 {
+    flex: 0 0 auto;
+    width: 66.66666666666%; }
+  .header-top-mid {
+    flex: 1; }
+  .categories-shop-wrap .product-item img {
+    margin-right: 10px; }
+  .about-shop-wrap .row {
+    flex-wrap: nowrap; }
+  /* about */
+  .about-shop-wrap .container {
+    max-width: 1600px; }
+  .about-content-header {
+    margin-top: 0; }
+  .about-title-content-header {
+    text-align: left; }
+  .about-slide-img-item {
+    padding: 0; } }
+
+@media (min-width: 740px) and (max-width: 1023px) {
+  .col-4 {
+    flex: 0 0 auto;
+    width: 33.333333333%; }
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.333333333%; }
+  .col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%; }
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%; }
+  .col-lg-8 {
+    flex: 0 0 auto;
+    width: 66.66666666666%; }
+  .icon-logo {
+    display: none; }
+  .header-top-mid {
+    flex: 1; }
+  .heart-wrap {
+    display: none; }
+  .featured-categories {
+    display: none; }
+  .categories-shop-wrap {
+    display: none; }
+  .categories-product {
+    width: 100%; }
+  /* about */
+  .about-shop-wrap .container {
+    max-width: 960px;
+    margin: 0 auto; }
+  .about-slide-img {
+    display: none; }
+  .our-team-info {
+    top: 83%; }
+  /* contact */
+  /* Tân Minh làm*/
+  .col-first-body_main {
+    flex: 0 0 auto;
+    width: 80%; }
+  .item_frist-body {
+    flex: 0 0 auto;
+    width: 100%; }
+  .item_first {
+    flex: 0 0 auto;
+    width: 33,3333%; }
+  .last_main-item {
+    flex: 0 0 auto;
+    width: 50%; }
+  .info_Contact-from {
+    flex: 0 0 auto;
+    width: 100%; }
+  .img-map {
+    width: 1000px; }
+  /*Tân Minh làm*/
+  .footer-img__background {
+    width: 100%;
+    height: 100%; }
+  /*Tân Minh làm*/
+  .footer-img__content {
+    width: 0%;
+    height: 0%; }
+  /*Tân Minh làm*/
+  .footer-img__text {
+    font-size: 2rem;
+    left: 84px;
+    top: 210px; }
+  /*Tân Minh làm*/
+  .footer-img__title {
+    font-size: 4rem; }
+  /*Tân Minh làm*/
+  .footer-img__control {
+    width: 50%; }
+  /*Tân Minh làm*/
+  .footer-control__submit {
+    right: 50%;
+    padding: 24px 50px; }
+  /*Tân Minh làm*/
+  .footer-body__item {
+    flex: 0 0 auto;
+    width: 33.33333%; }
+  /*Tân Minh làm*/
+  .footer-feature__link {
+    flex: 0 0 auto;
+    width: 33.33333%; }
+  /*Tân Minh làm*/
+  .footer-last__info {
+    flex: 0 0 auto;
+    width: 50%;
+    left: 0; } }
+
+@media (min-width: 576px) and (max-width: 740px) {
+  .col-6 {
+    flex: 0 0 auto;
+    width: 50%; }
+  .header-top-wrapper {
+    border-bottom: 0; }
+  .header-top {
+    padding: 26px 0 18px 0;
+    border-bottom: 1px solid #eeeeee; }
+  .header-top-mid {
+    flex: 1; }
+  .icon-logo {
+    display: none; }
+  .header-top-wrapper .icon-navbar {
+    display: block;
+    font-size: 22px;
+    color: #1a3e4e;
+    padding: 4px 8px;
+    margin: 0 84px 0 2px; }
+  .header-top-wrapper .icon-navbar:hover {
+    cursor: pointer; }
+  .header-top-mid {
+    width: 50%; }
+  .input-search-wrap {
+    min-height: 46px; }
+  .header-top-mid .input-search {
+    width: 85%; }
+  .header-nav {
+    display: none; }
+  .header-top-mid .input-search-wrap {
+    width: 100%; }
+  .icon-search-header {
+    width: 15%;
+    padding: 8px; }
+  .header-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 56px;
+    margin-right: 0;
+    transform: translateY(0);
+    width: 20%; }
+  .heart-wrap {
+    display: none; }
+  .featured-categories {
+    display: none; }
+  .categories-shop-wrap {
+    display: none; }
+  .categories-product {
+    width: 100%; }
+  /* about */
+  .about-slide-img {
+    display: none; }
+  .about-banner {
+    display: none; }
+  .our-team-info {
+    top: 88%; }
+  .our-team-img:nth-child(2) {
+    margin-top: 80px; }
+  /* contact */
+  /*Tân Minh làm*/
+  .col-first-body_main {
+    flex: 0 0 auto;
+    width: 100%; }
+  .item_first {
+    flex: 0 0 auto;
+    width: 100%; }
+  .last_main-item {
+    flex: 0 0 auto;
+    width: 50%; }
+  .info_Contact-from {
+    flex: 0 0 auto;
+    width: 100%; }
+  .from_Contact {
+    flex: 0 0 auto;
+    width: 100%; }
+  .img-map {
+    width: 750px; }
+  /*Tân Minh làm*/
+  .footer-img__background {
+    width: 100%;
+    height: 100%; }
+  /*Tân Minh làm*/
+  .footer-img__content {
+    width: 0%;
+    height: 0%; }
+  /*Tân Minh làm*/
+  .footer-img__text {
+    font-size: 2rem;
+    left: 84px;
+    top: 210px; }
+  /*Tân Minh làm*/
+  .footer-img__title {
+    font-size: 3rem; }
+  /*Tân Minh làm*/
+  .footer-img__control {
+    width: 80%; }
+  /*Tân Minh làm*/
+  .footer-control__submit {
+    right: 50%;
+    padding: 20px 40px; }
+  /*Tân Minh làm*/
+  .footer-body__item {
+    flex: 0 0 auto;
+    width: 50%; }
+  /*Tân Minh làm*/
+  .footer-feature__link {
+    flex: 0 0 auto;
+    width: 50%; }
+  /*Tân Minh làm*/
+  .footer-last__info {
+    flex: 0 0 auto;
+    width: 100%;
+    left: 0; } }
+
+@media (max-width: 576px) {
+  .col-12 {
+    flex: 0 0 auto;
+    width: 100%; }
+  .header-top-wrapper {
+    border-bottom: 0; }
+  .header-top {
+    padding: 26px 0 18px 0;
+    border-bottom: 1px solid #eeeeee; }
+  .icon-navbar-wrap {
+    width: 20%;
+    margin-right: 0; }
+  .icon-logo {
+    display: none; }
+  .header-top-wrapper .icon-navbar {
+    display: block;
+    font-size: 22px;
+    color: #1a3e4e;
+    padding: 4px 16px;
+    /* margin: 0 40px 0 2px; */ }
+  .header-top-wrapper .icon-navbar:hover {
+    cursor: pointer; }
+  .input-search-wrap {
+    min-height: 46px; }
+  .header-top-mid {
+    width: 50%; }
+  .header-top-mid .input-search {
+    width: 80%; }
+  .icon-search-header {
+    width: 20%;
+    padding: 8px; }
+  .heart-wrap {
+    display: none; }
+  .header-nav {
+    display: none; }
+  .header-top-mid .input-search-wrap {
+    width: 100%; }
+  .header-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 56px;
+    margin-right: 0;
+    transform: translateY(0);
+    width: 22%;
+    margin-left: 28px;
+    margin-right: -12px; }
+  .featured-categories {
+    display: none; }
+  .categories-shop-wrap {
+    display: none; }
+  .categories-product {
+    width: 100%; }
+  /* about */
+  .about-slide-img {
+    display: none; }
+  .our-team-info {
+    top: 83%; }
+  .our-performance-content h1 {
+    font-size: 30px; }
+  .about-description-item h1 {
+    font-size: 20px; }
+  .our-team-title-primary {
+    font-size: 30px; }
+  .about-banner img {
+    display: none; }
+  .our-team-description {
+    margin-bottom: 30px; }
+  .our-team-description h6 {
+    font-size: 26px; }
+  .our-team-description h1 {
+    font-size: 30px; }
+  .our-team-img:nth-child(2) {
+    margin-top: 80px; }
+  /* contact */
+  /*Tân Minh làm*/
+  .col-first-body_main {
+    flex: 0 0 auto;
+    width: 100%; }
+  .item_first {
+    flex: 0 0 auto;
+    width: 100%; }
+  .last_main-item {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center; }
+  .info_Contact-from {
+    flex: 0 0 auto;
+    width: 100%; }
+  .from_Contact {
+    flex: 0 0 auto;
+    width: 100%; }
+  .img-map {
+    width: 550px; }
+  .footer-img__background {
+    width: 100%;
+    height: 100%; }
+  .footer-img__content {
+    width: 0%;
+    height: 0%; }
+  .footer-img__text {
+    font-size: 2rem;
+    left: 84px;
+    top: 210px; }
+  .footer-img__title {
+    font-size: 2.5rem; }
+  .footer-img__control {
+    width: 80%; }
+  .footer-control__submit {
+    right: 50%;
+    padding: 0px 10px; }
+  .footer-body__item {
+    flex: 0 0 auto;
+    width: 50%; }
+  .footer-feature__link {
+    flex: 0 0 auto;
+    width: 100%; }
+  .footer-last__info {
+    flex: 0 0 auto;
+    width: 100%;
+    left: 0; } }
+
+.col {
+  padding-left: 12px;
+  padding-right: 12px; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px; }
+
+.col-11 {
+  flex: 0 0 auto;
+  width: 91.6666666667%; }
+
+.col-10 {
+  flex: 0 0 auto;
+  width: 83.3333333333%; }

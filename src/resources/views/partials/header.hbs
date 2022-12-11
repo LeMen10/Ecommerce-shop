@@ -1,1 +1,104 @@
-<h1>Header</h1>
+<div class="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="header-top-wrapper">
+                <a class="logo-primary js-page-home" href="index.html">
+                    <img class="icon-logo" src="/img/logo.svg" alt="">
+                </a>
+                <div class="icon-navbar-wrap">
+                    <i class="fa-solid fa-bars icon-navbar js-icon-navbar"></i>
+                </div>
+
+                <div class="header-top-mid">
+                    <div class="input-search-wrap">
+                        <input class="input-search js-search-product" type="search" placeholder="Search for items...">
+                        <button onclick="searchProduct()" class="icon-search-header js-submit-search">
+                            <i class="fa-solid fa-magnifying-glass "></i>
+                        </button>
+                    </div>
+
+                    <div class="header-nav">
+                        <ul class="nav-list">
+                            <li class="nav-item ">
+                                <a class=" nav-link nav-link-pc  js-page-home" href="">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-pc js-page-shop">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-pc js-page-about">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-pc js-page-contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-action">
+                    <div class="heart-wrap">
+                        <a href="" class="icon-cart">
+                            <img src="/img/icon-heart.svg" alt="">
+                            <span class="amount-wishlist">6</span>
+                        </a>
+                    </div>
+                    <div class="cart-wrap">
+                        <a class="icon-cart">
+                            <img src="/img/icon-cart.svg" alt="">
+                            <span class="amount-product">0</span>
+                        </a>
+
+                        <div class="cart-dropdown-wrap">
+                            <ul class="cart-dropdown-list"></ul>
+                            <div class="cart-dropdown-total-wrap">
+                                <div class="cart-dropdown-total">
+                                    <p>Total</p>
+                                    <span class="cart-dropdown-total-bill"></span>
+                                </div>
+                                <div class="cart-dropdown-button">
+                                    <a href="#" class="btn button-view">View Cart</a>
+                                    <a class="btn button-checkout js-check-out">Checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="account-wrap js-login-btn">
+                        <img src="img/icon-user.svg" alt="">
+                    </div>
+                    <!-- Thay đổi icon user -->
+                    <div class="header-action-logged">
+                        <div id="js-accout-user"></div>
+                        <div class="logged-dropdown-wrap modal-dropdow-hover">
+                            <ul class="logged-dropdown-list">
+                                <li class="logged-dropdown-item  js-icon-admin">
+                                    <a href="./admin/index.html" class="logged-dropdown-item-content">
+                                        <i class="fa-solid fa-user"></i>
+                                        <p>Admin</p>
+                                    </a>
+                                </li>
+                                <li class="logged-dropdown-item js-order-history">
+                                    <a class="logged-dropdown-item-content">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <p>Order History</p>
+                                    </a>
+                                </li>
+                                <li class="logged-dropdown-item js-delivery">
+                                    <a class="logged-dropdown-item-content">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <p>Delivery</p>
+                                    </a>
+                                </li>
+                                <li class="logged-dropdown-item">
+                                    <a class="logged-dropdown-item-content">
+                                        <i class="fa-solid fa-right-from-bracket icon-logout"></i>
+                                        <p class="js-log-out">Log Out</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
