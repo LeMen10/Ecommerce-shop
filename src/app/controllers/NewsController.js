@@ -4,4 +4,4 @@ class NewsController{
     }
 }
 
-module.exports = new NewsController;
+module.exports = new NewsController();

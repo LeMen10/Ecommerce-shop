@@ -767,13 +767,27 @@ input:focus {
 .list-featured-categories {
     overflow: hidden;
 }
+.background-color-feefea{
+    background-color: #feefea;
+}
+.background-color-FFF3FF{
+    background-color: #FFF3FF;
+}
+.background-color-f0fce5{
+    background-color: #f0fce5;
+}
+.background-color-FFF3EB{
+    background-color: #FFF3EB;
+}
+.background-color-ECFFEC{
+    background-color: #ECFFEC;
+}
 
 .cover-button-product {
     text-align: center;
     border-radius: 16px;
     padding: 12px 0;
     justify-content: space-around;
-    background-color: #f0fce5;
 }
 
 .cover-button-product img {
@@ -1002,6 +1016,8 @@ input:focus {
 }
 
 .product-card-bottom .current-price{
+    font-weight: 700;
+    color: var(--primary-color);
     font-size: 20px;
 }
 

@@ -35,7 +35,7 @@
                 <div class="list-featured-categories">
                     <div class="row">
                         <div class="col-1-2 ">
-                            <div class="cover-button-product">
+                            <div class="cover-button-product background-color-f0fce5">
                                 <img src="/img/cat-13.png" alt="">
                                 <h6>Cake & Milk</h6>
                             </div>
@@ -43,57 +43,57 @@
                         </div>
 
                         <div class=" col-1-2">
-                            <div class="cover-button-product">
+                            <div class="cover-button-product background-color-FFF3FF">
                                 <img src="/img/cat-1.png" alt="">
                                 <h6>Cabbage</h6>
                             </div>
                         </div>
 
                         <div class="col-1-2">
-                            <div class="cover-button-product">
+                            <div class="cover-button-product background-color-ECFFEC">
                                 <img src="/img/cat-2.png" alt="">
                                 <h6>Strawberry</h6>
                             </div>
                         </div>
                         <div class="col-1-2">
-                            <div class="cover-button-product color-feefea">
+                            <div class="cover-button-product background-color-feefea">
                                 <img src="/img/cat-12.png" alt="">
                                 <h6>Oganic kiwi</h6>
                             </div>
                         </div>
                         <div class="col-1-2">
-                            <div class="cover-button-product">
+                            <div class="cover-button-product background-color-FFF3EB">
                                 <img src="/img/cat-11.png" alt="">
                                 <h6>Peach</h6>
                             </div>
                         </div>
                         <div class="col-1-2">
-                            <div class="cover-button-product">
+                            <div class="cover-button-product background-color-FFF3FF">
                                 <img src="/img/cat-4.png" alt="">
                                 <h6>Blueberry</h6>
                             </div>
                         </div>
                         <div class="col-1-2">
-                            <div class="cover-button-product">
+                            <div class="cover-button-product background-color-f0fce5">
                                 <img src="/img/cat-9.png" alt="">
                                 <h6>Apple</h6>
                             </div>
                         </div>
                         <div class="col-1-2">
-                            <div class=" cover-button-product ">
+                            <div class=" cover-button-product background-color-FFF3EB">
                                 <img src="/img/cat-14.png" alt="">
                                 <h6>Sank</h6>
                             </div>
                         </div>
                         <div class="col-1-2">
-                            <div class="cover-button-product">
+                            <div class="cover-button-product background-color-ECFFEC">
                                 <img src="/img/cat-5.png" alt="">
                                 <h6>Apple</h6>
                             </div>
                         </div>
 
                         <div class="col-1-2">
-                            <div class="cover-button-product">
+                            <div class="cover-button-product background-color-FFF3EB">
                                 <img src="/img/cat-3.png" alt="">
                                 <h6>Sank</h6>
                             </div>
@@ -175,22 +175,21 @@
                     <div class="tab-pane list-product-wrap close-product-description-wrap">
                         <div class="list-product-1 show-product ">
                             <div class="row">
+                                {{#each product}}
                                 <div class="col col-2-4 col-4 col-6 col-12 mb-24">
                                     <div class="popular-product-cart-wrap js-page-description-product">
                                         <div class="product-card-header">
                                             <img class="js-product-cart-src img-product-box"
-                                                src="/assets/img/product-1-1.jpg" alt="">
+                                                src="{{this.img}}" alt="">
                                         </div>
 
                                         <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Seeds of Change
-                                                Organic Quinoa, Brown, & Red Rice
-                                            </a>
+                                            <a href="/product/{{this._id}}" class="product-cart-title js-product-cart-title">{{this.title}}</a>
                                             <p class="product-cart-description">If you want to have some
                                                 refreshing and healthy drinks. Choose your favorite taste and
                                                 enjoy the best from Deliany Juice.</p>
                                             <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$28</span>
+                                                <span class="js-product-cart-price current-price">${{this.price}}</span>
                                                 <div class="add-cart" onclick="addCartPageShop(event)">
                                                     <a class="btn">Add</a>
                                                 </div>
@@ -199,446 +198,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-2-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">All Natural
-                                                Italian-Style Chicken Meatballs
-                                            </a>
-                                            <p class="product-cart-description">Sed ut perspiciatis unde omnis
-                                                iste natus error sit voluptatem accusantium doloremque
-                                                laudantium, totam rem aperiam.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$52</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-3-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Angie’s
-                                                Boomchickapop
-                                                Sweet & Kettle Corn
-                                            </a>
-                                            <p class="product-cart-description">Nemo enim ipsam voluptatem quia
-                                                voluptas sit aspernatur aut odit aut fugit, sed qui ratione
-                                                voluptatem sequi nesciunt.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$48</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-6-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Chobani Complete
-                                                Vanilla Greek
-                                            </a>
-                                            <p class="product-cart-description">Quis autem vel eum iure
-                                                reprehenderit qui in ea voluptate velit esse quam nihil
-                                                molestiae consequatur, voluptas nulla pariatur.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$53</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-12-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Haagen-Dazs
-                                                Caramel Cone Ice Cream Ketchup
-                                            </a>
-                                            <p class="product-cart-description">Duis aute irure dolor in
-                                                reprehenderit doloremque laudantium, in voluptate velit esse
-                                                cillum dolore eu fugiat nulla pariatur.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$47</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-4-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Foster Farms
-                                                Takeout Crispy Classic Buffalo Wings
-                                            </a>
-                                            <p class="product-cart-description">Neque porro quisquam est, qui
-                                                dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                                                et dolore quaerat voluptatem.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$17</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-5-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Blue Diamond
-                                                Almonds Lightly Salted Vegetables
-                                            </a>
-                                            <p class="product-cart-description">Ut enim ad minima veniam, quis
-                                                nostrum exercitationem ullam corporis suscipit laboriosam, nisi
-                                                ut aliquid commodi consequatur</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$23</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-11-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Gorton’s Beer
-                                                Battered Fish Fillets with soft paper
-                                            </a>
-                                            <p class="product-cart-description">It is a long established fact
-                                                that a reader will be distracted by the readable content of a
-                                                page when looking at its layout.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$28</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-7-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">All Natural
-                                                Style Chicken Meatballs
-                                            </a>
-                                            <p class="product-cart-description">Nor again is there anyone who
-                                                loves or pursues or desires to obtain pain of itself, because it
-                                                is pain, but because occasionally.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$68</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-8-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Encore Seafoods
-                                                Stuffed Alaskan Salmon
-                                            </a>
-                                            <p class="product-cart-description">At vero eos et accusamus et
-                                                iusto odio dignissimos ducimus qui blanditiis praesentium
-                                                voluptatum deleniti cupiditate non provident.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$94</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
+                                {{/each}}
                             </div>
                         </div>
-                        <div class="list-product-2 ">
-                            <div class="row">
 
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-5-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Blue Diamond
-                                                Almonds Lightly Salted Vegetables
-                                            </a>
-                                            <p class="product-cart-description">Ut enim ad minima veniam, quis
-                                                nostrum exercitationem ullam corporis suscipit laboriosam, nisi
-                                                ut aliquid commodi consequatur.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$28</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-10-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Encore Seafoods
-                                                Stuffed Alaskan Salmon
-                                            </a>
-                                            <p class="product-cart-description">It uses a dictionary of over 200
-                                                Latin words, combined with a handful of model sentence
-                                                structures, to which looks reasonable.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$75</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-11-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Gorton’s Beer
-                                                Battered Fish Fillets with soft paper
-                                            </a>
-                                            <p class="product-cart-description">It is a long established fact
-                                                that a reader will be distracted by the readable content of a
-                                                page when looking at its layout.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$85</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-13-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Angie’s
-                                                Boomchickapop Sweet & Salty Kettle Corn
-                                            </a>
-                                            <p class="product-cart-description">Voluptatem sequi nesciunt. Neque
-                                                porro quisquam est, quia dolor sit amet, consectetur, adipisci
-                                                velit, sed quia non numquam.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$24</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-6-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Chobani Complete
-                                                Vanilla Greek
-                                            </a>
-                                            <p class="product-cart-description">Quis autem vel eum iure
-                                                reprehenderit qui in ea voluptate velit esse quam nihil
-                                                molestiae consequatur, voluptas nulla pariatur.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$53</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-14-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Foster
-                                                Takeout Crispy Classic Buffalo Wings
-                                            </a>
-                                            <p class="product-cart-description">Sed ultrices massa non laoreet
-                                                rutrum. Nullam vestibulum semper. Sed egestas dignissim sem at
-                                                tempus. In et mollis justo.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$83</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-9-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Canada Dry
-                                                Ginger Ale – 2 L Bottle - 200ml - 400g
-                                            </a>
-                                            <p class="product-cart-description">There are many variations of
-                                                passages of Lorem Ipsum available, but the majority have
-                                                suffered alteration in some or randomised words</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$36</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-16-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Chobani Complete
-                                                Vanilla Greek Yogurt
-                                            </a>
-                                            <p class="product-cart-description">Sed varius fringilla lectus
-                                                consequat condimentum. Aliquam turpis lorem, venenatis mauris
-                                                vitae, vestibulum efficitur neque.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$35</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-15-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Blue Almonds
-                                                Lightly Salted Vegetables
-                                            </a>
-                                            <p class="product-cart-description">Duis quis nisl leo. Curabitur ut
-                                                velit pharetra, ullamcorper efficitur nisi. Maecenas volutpat
-                                                lacus id vehicula malesuada.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$76</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col col-2-4 col-4 col-6 col-12 mb-24">
-                                    <div class="popular-product-cart-wrap js-page-description-product">
-                                        <div class="product-card-header">
-                                            <img class="js-product-cart-src" src="/assets/img/product-12-1.jpg" alt="">
-                                        </div>
-
-                                        <div class="product-cart-content">
-                                            <a class="product-cart-title js-product-cart-title">Haagen-Dazs
-                                                Caramel Cone Ice Cream Ketchup
-                                            </a>
-                                            <p class="product-cart-description">Duis aute irure dolor in
-                                                reprehenderit doloremque laudantium, in voluptate velit esse
-                                                cillum dolore eu fugiat nulla pariatur.</p>
-                                            <div class="product-card-bottom">
-                                                <span class="js-product-cart-price current-price">$47</span>
-                                                <div class="add-cart">
-                                                    <a class="btn" onclick="addCartPageShop(event)">Add</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

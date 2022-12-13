@@ -1,19 +1,13 @@
-// const Product = require('../models/Product');
-// const { mutipleMongooseToObject } = require('../../util/mongoose')
+const Product = require('../models/Product');
+const { mutipleMongooseToObject } = require('../../util/mongoose')
 class SiteController {
-    // [GET] /news
-    // index(req, res, next) {
-
-    //     Product.find({})
-    //         .then(courses => {
-    //             res.render('home', {
-    //                 courses: mutipleMongooseToObject(courses)
-    //             })
-    //         })
-    //         .catch(next);
-    // }
-    index(req, res){
-        res.render('home');
+    // [GET] /home
+    index(req, res, next) {
+        Product.find({})
+            .then(product => {
+                res.render('home', {product: mutipleMongooseToObject(product)});
+            })
+            .catch(next)
     }
 
     //[GET] /search

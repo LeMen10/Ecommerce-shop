@@ -9,6 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 const db = require('./config/db')
 
 db.connect();
+
 const route = require('./routes');
 app.use(morgan('combined'))
 app.engine('hbs', engine({
