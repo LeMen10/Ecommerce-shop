@@ -1,0 +1,31 @@
+[
+    {
+        "username": "menvo",
+        "email": "lemen@gmail.com",
+        "password": "12312312"
+    },
+    {
+        "username": "dmanh",
+        "email": "dmanh@gmail.com",
+        "password": "12312121"
+    },
+    {
+        "username": "gminh",
+        "email": "gminh@gmail.com",
+        "password": "12312311"
+    },
+    {
+        "username": "nminh",
+        "email": "nminh@gmail.com",
+        "password": "12321211"
+    },
+    {
+        "username": "pminh",
+        "email": "pminh@gmail.com",
+        "password": "12323121"
+    },{
+        "username": "dnam",
+        "email": "dnam@gmail.com",
+        "password": "12323231"
+    }
+]

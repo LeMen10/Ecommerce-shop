@@ -1,0 +1,114 @@
+[
+    {
+        "title": "Seeds of Change Organic Quinoa, Brown, & Red Rice",
+        "price": 28,
+        "category": "snack",
+        "img": "/img/product-1-1.jpg",
+        "detail": "If you want to have some refreshing and healthy drinks. Choose your favorite taste and enjoy the best from Deliany Juice."
+    },
+    {
+        "title": "All Natural Italian-Style Chicken Meatballs",
+        "price": 52,
+        "category": "snack",
+        "img": "/img/product-2-1.jpg",
+        "detail": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    },
+    {
+        "title": "Angie’s Boomchickapop Sweet & Kettle Corn",
+        "price": 48,
+        "category": "snack",
+        "img": "/img/product-3-1.jpg",
+        "detail": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui ratione voluptatem sequi nesciunt."
+    },
+    {
+        "title": "Foster Farms Takeout Crispy Classic Buffalo Wings",
+        "price": 17,
+        "category": "snack",
+        "img": "/img/product-4-1.jpg",
+        "detail": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, et dolore quaerat voluptatem."
+    },
+    {
+        "title": "Blue Diamond Almonds Lightly Salted Vegetables",
+        "price": 23,
+        "category": "vegetable",
+        "img": "/img/product-5-1.jpg",
+        "detail": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi consequatur."
+    },
+    {
+        "title": "Chobani Complete Vanilla Greek",
+        "price": 15,
+        "category": "freshfruit",
+        "img": "/img/product-6-1.jpg",
+        "detail": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, voluptas nulla pariatur."
+    },
+    {
+        "title": "All Natural Style Chicken Meatballs",
+        "price": 68,
+        "category": "coffee",
+        "img": "/img/product-7-1.jpg",
+        "detail": "Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally."
+    },
+    {
+        "title": "Angie’s Boomchickapop Sweet & Salty Kettle Corn",
+        "price": 94,
+        "category": "freshfruit",
+        "img": "/img/product-8-1.jpg",
+        "detail": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti cupiditate non provident."
+    },
+    {
+        "title": "Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g",
+        "price": 36,
+        "category": "freshfruit",
+        "img": "/img/product-9-1.jpg",
+        "detail": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some or randomised words."
+    },
+    {
+        "title": "Encore Seafoods Stuffed Alaskan Salmon",
+        "price": 74,
+        "category": "freshfruit",
+        "img": "/img/product-10-1.jpg",
+        "detail": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to which looks reasonable."
+    },
+    {
+        "title": "Gorton’s Beer Battered Fish Fillets with soft paper",
+        "price": 13,
+        "category": "coffee",
+        "img": "/img/product-11-1.jpg",
+        "detail": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+        "title": "Haagen-Dazs Caramel Cone Ice Cream Ketchup",
+        "price": 47,
+        "category": "coffee",
+        "img": "/img/product-12-1.jpg",
+        "detail": "Duis aute irure dolor in reprehenderit doloremque laudantium, in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+        "title": "Angie’s Boomchickapop Sweet & Salty Kettle Corn",
+        "price": 102,
+        "category": "coffee",
+        "img": "/img/product-13-1.jpg",
+        "detail": "Voluptatem sequi nesciunt. Neque porro quisquam est, quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam."
+    },
+    {
+        "title": "Foster Takeout Crispy Classic Buffalo Wings",
+        "price": 82,
+        "category": "vegetable",
+        "img": "/img/product-14-1.jpg",
+        "detail": "Sed ultrices massa non laoreet rutrum. Nullam vestibulum semper. Sed egestas dignissim sem at tempus. In et mollis justo."
+    },
+    {
+        "title": "Blue Almonds Lightly Salted Vegetables",
+        "price": 76,
+        "category": "vegetable",
+        "img": "/img/product-15-1.jpg",
+        "detail": "Duis quis nisl leo. Curabitur ut velit pharetra, ullamcorper efficitur nisi. Maecenas volutpat lacus id vehicula malesuada."
+    },
+    {
+        "title": "Chobani Complete Vanilla Greek Yogurt",
+        "price": 85,
+        "category": "vegetable",
+        "img": "/img/product-16-1.jpg",
+        "detail": "Sed varius fringilla lectus consequat condimentum. Aliquam turpis lorem, venenatis mauris vitae, vestibulum efficitur neque."
+    }
+]
