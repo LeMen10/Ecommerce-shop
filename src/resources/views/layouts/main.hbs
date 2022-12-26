@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="/css/product-detail.css">
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/loading.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/shop.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/plugin/fontawesome/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Ecommerce Shop</title>
 </head>
@@ -17,11 +21,23 @@
 <body>
     <div class="app">
         {{> header}}
-
-        {{{body}}}
+        <div class="content ">
+            {{{body}}}
+        </div>
 
         {{> footer}}
     </div>
+
+    
+
+    <div class="toTop">
+        <i class="fa fa-chevron-right"></i>
+    </div>
+
+    <script src="/js/pages.js"></script>
+    <script src="/js/addCart.js"></script>
+    <script src="/js/main.js"></script>
+
 </body>
 
 </html>

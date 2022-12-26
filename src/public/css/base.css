@@ -41,8 +41,7 @@
   left: 0;
   display: flex;
   animation: fadeIn linear .1s;
-  z-index: 4;
-  display: none; }
+  z-index: 4; }
 
 .modal__overlay {
   position: absolute;

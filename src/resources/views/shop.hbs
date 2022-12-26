@@ -1,0 +1,115 @@
+<div class="page-shop-wrap js-open-page-shop">
+    <div class="container">
+        <div class="row">
+            <div class="page-shop">
+                <div class="categories-shop-wrap container">
+                    <div class="categories-shop">
+                        <h5 class="title-category">Category</h5>
+                        <ul class="title-product-list {{url_current}}">
+                            {{#each categories}}
+                            <li class="title-product-item">
+                                <div class="product-item">
+                                    <img src="{{this.img}}" alt="">
+
+                                    <a class="render-by-category"
+                                        href="/shop?category={{this.category}}">{{this.title}}</a>
+
+                                </div>
+                                <div class="count-product ">{{this.count}}</div>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+
+                    <div class="categories-shop">
+                        <h5 class="title-category">Price</h5>
+                        <ul class="title-product-list">
+                            <li class="price-product-item">
+                                <span>from 1$ - 50$</span>
+                            </li>
+                            <li class="price-product-item">
+                                <span>from 51$ - 100$</span>
+                            </li>
+                            <li class="price-product-item">
+                                <span>over 100 dollars</span>
+                            </li>
+                        </ul>
+                        <div class="price-range-wrap">
+                            <h4 class="price-range-title">Price Range</h4>
+                            <div class="price-range-input">
+                                <input type="text">
+                                <span>-</span>
+                                <input type="text">
+                            </div>
+                            <div class="price-range-apply">
+                                <button class="" type="submit">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="banner-img-sidebar">
+                        <img src="/img/banner-11.png" alt="">
+                        <div class="title-banner-sidebar">
+                            <p>Oganic</p>
+                            <h4>Sale 17% on <span>Organic</span> Juice</h4>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="categories-product container">
+                    <div class="row js-product-lists none-product-list">
+                        {{#each products}}
+                        <div class="col col-3 col-4 col-6 col-12 mb-24">
+                            <div class="popular-product-cart-wrap js-page-description-product">
+                                <div class="product-card-header">
+                                    <img class="js-product-cart-src img-product-box" src="{{this.img}}" alt="">
+                                </div>
+
+                                <div class="product-cart-content">
+                                    <a href="/product/{{this._id}}"
+                                        class="product-cart-title js-product-cart-title">{{this.title}}</a>
+                                    <p class="product-cart-description">If you want to have some
+                                        refreshing and healthy drinks. Choose your favorite taste and
+                                        enjoy the best from Deliany Juice.</p>
+                                    <div class="product-card-bottom">
+                                        <span class="js-product-cart-price current-price">${{this.price}}</span>
+                                        <div class="add-cart" onclick="addCartPageShop(event)">
+                                            <a class="btn">Add</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{/each}}
+                    </div>
+
+                    <div class="pagination-area">
+                        <ul class="pagination-list">
+                            <li class="pagination-item-arrow">
+                                <a>
+                                    <i class="fa-solid fa-left-long"></i>
+                                </a>
+
+                            </li>
+                            <div class="page-controller js-page-controller">
+                                <li class="pagination-item js-active">
+                                    {{!-- <a class="js-load-page-shop" onclick="changePageSearch()">${i}</a> --}}
+                                </li>
+                            </div>
+
+                            <li class="pagination-item-arrow">
+                                <a>
+                                    <i class="fa-solid fa-right-long"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+</script>

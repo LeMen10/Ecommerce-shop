@@ -1,0 +1,50 @@
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Number</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+
+    <tbody id="data"></tbody>
+</table>
+
+<button type="button" onclick="getData()">Load more</button>
+
+<script src="">
+    // var startForm = 0;
+
+    // function getData() {
+    //     var ajax = new XMLHttpRequest();
+
+    //     ajax.open("POST", "http://localhost:3000/product/load-more", true);
+
+    //     ajax.onreadystatechange = function () {
+    //         if (this.readyState == 4) {
+    //             if (this.status == 200) {
+    //                 var data = JSON.parse(this.responseText);
+    //                 var html = '';
+    //                 for (var a = 0; a < data.lenght; a++) {
+    //                     html += "<tr>";
+    //                     html += "<tr>" + data[a]._id + "</td>";
+    //                     html += "<tr>" + data[a].username + "</td>";
+    //                     html += "<tr>" + data[a].email + "</td>";
+    //                     html += "</tr>";
+    //                 }
+    //                 document.getElementById("data").innerHTML += html;
+    //                 var limit = 2;
+    //                 startForm += limit;
+    //             }
+    //         }
+    //     }
+
+    //     var formData = new FormData();
+    //     formData.append("starForm", startForm);
+    //     ajax.send(formData)
+    // }
+
+    // window.addEventListener('load', function () {
+    //     getData();
+    // })
+</script>

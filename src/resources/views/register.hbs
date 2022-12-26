@@ -1,0 +1,164 @@
+<div class="modal js-modal-register">
+    <div class="modal__overlay">
+        <img src="/img/f8_login.png" alt="">
+    </div>
+    <div class="modal__body">
+        <form action="/register" method="post" id="form-register">
+            <div class="auth-form ">
+                <div class="auth-form__container js-modal-container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <a href="/login" class="auth-form__switch-btn js-login ">Đăng nhập</a>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" name="username" placeholder="Tên đăng nhập" class="auth-form__input"
+                                id="auth-form__username">
+                            <div class="error">
+
+                            </div>
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="text" name="email" placeholder="Email của bạn" class="auth-form__input"
+                                id="auth-form__email">
+                            <div class="error">
+
+                            </div>
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" name="password" placeholder="Mật khẩu của bạn" class="auth-form__input"
+                                id="auth-form__password">
+                            <div class="error">
+
+                            </div>
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" name="passwordConfim" placeholder="Nhập lại mật khẩu" class="auth-form__input"
+                                id="auth-form__confirm-password">
+                            <div class="error">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng ký, bạn đã đồng ý với Nest - Multipurpose eCommerce về
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__control">
+                        <a href="/" class="btn auth-form__control-back btn--normal js-modal-close">TRỞ LẠI</a>
+                        <button type="submit" class="btn btn--primary view-cart ">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<script>
+    var email = document.getElementById("auth-form__email");
+    var username = document.getElementById("auth-form__username");
+    var password = document.getElementById("auth-form__password");
+    var confirmPassword = document.getElementById("auth-form__confirm-password");
+
+    var kiemtra = false;
+    const btn = email.addEventListener("keyup", function () {
+        var form = email.parentElement
+        var email_value = email.value
+        var error = form.getElementsByClassName("error")[0]
+        var check = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+        if (email_value.match(check)) {
+            error.innerHTML = "Email hợp lệ"
+            error.style.color = "green"
+            kiemtra = true
+        }
+        else {
+            error.innerHTML = "Email không hợp lệ"
+            error.style.color = "red"
+            kiemtra = false
+        }
+
+        if (email_value == "") {
+            error.innerHTML = ""
+            error.style.color = "#fff"
+            kiemtra = false
+        }
+    })
+
+
+    var kiemtra1 = false
+    username.addEventListener("keyup", function () {
+        var form = username.parentElement
+        var user_value = username.value
+        var error = form.getElementsByClassName("error")[0]
+        var check = /^[a-zA-Z0-9\-]{6,8}$/
+        if (user_value.match(check)) {
+            error.innerHTML = "Username hợp lệ"
+            error.style.color = "green"
+            kiemtra1 = true
+        }
+        else {
+            error.innerHTML = "Username có 6-8 ký tự, không chứa khoảng trắng và dấu."
+            error.style.color = "red"
+            kiemtra1 = false
+        }
+
+        if (user_value == "") {
+            error.innerHTML = ""
+            error.style.color = "#fff"
+            kiemtra1 = false
+        }
+    })
+    var kiemtra2 = false
+    password.addEventListener("keyup", function () {
+        var form = password.parentElement
+        var pass_value = password.value
+        var error = form.getElementsByClassName("error")[0]
+        var check = /^[a-zA-Z0-9\-]{8,12}$/
+        if (pass_value.match(check)) {
+            error.innerHTML = "Mật khẩu hợp lệ"
+            error.style.color = "green"
+            kiemtra2 = true
+        }
+        else {
+            error.innerHTML = "Mật khẩu không hợp lệ. Mật khẩu từ 8-12 ký tự và không có khoảng trắng"
+            error.style.color = "red"
+            kiemtra2 = false
+        }
+
+        if (pass_value == "") {
+            error.innerHTML = ""
+            error.style.color = "#fff"
+            kiemtra2 = false
+        }
+    })
+    var kiemtra3 = false
+    confirmPassword.addEventListener("keyup", function () {
+        var form = confirmPassword.parentElement
+        var pass2_value = confirmPassword.value
+        var pass_value = password.value
+        var error = form.getElementsByClassName("error")[0]
+        var check = /^[a-zA-Z0-9\-]{8,12}$/
+        if (pass2_value != pass_value) {
+            error.innerHTML = "Mật khẩu xác nhận không đúng"
+            error.style.color = "red"
+            kiemtra3 = false
+        }
+        else {
+            error.innerHTML = "Mật khẩu xác nhận hợp lệ"
+            error.style.color = "green"
+            kiemtra3 = true
+        }
+        if (pass2_value == "") {
+            error.innerHTML = ""
+            error.style.color = "#fff"
+            kiemtra3 = false
+        }
+    })
+</script>

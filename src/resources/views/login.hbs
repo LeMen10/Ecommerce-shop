@@ -1,0 +1,41 @@
+<div class="modal js-modal-login">
+        <div class="modal__overlay">
+            <img src="/img/f8_login.png" alt="">
+        </div>
+        <div class="modal__body">
+            <form action="/login" method="post" id="form-login">
+                <div class="auth-form ">
+                    <div class="auth-form__container js-modal-container-login">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <a href="/register" class="auth-form__switch-btn js-register">Đăng ký</a>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" placeholder="Username của bạn" name="username" class="auth-form__input"
+                                    id="auth-form__user-login">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" placeholder="Mật khẩu của bạn" name="password" class="auth-form__input"
+                                    id="auth-form__password-login">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <p class="auth-form__help">
+                                <a class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                            </p>
+                        </div>
+
+                        <div class="auth-form__control">
+                            <a href="/" class="btn auth-form__control-back btn--normal js-modal-close">TRỞ LẠI</a>
+                            <button type="submit" value="login" class="btn btn--primary view-cart ">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>

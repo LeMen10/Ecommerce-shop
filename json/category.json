@@ -1,0 +1,30 @@
+[
+    {
+        "key": "cate_id",
+        "category": "snack",
+        "title": "Snack",
+        "count": 4,
+        "img": "/img/category-1.svg"
+    },
+    {
+        "key": "cate_id",
+        "category": "vegetable",
+        "title": "Vegetable",
+        "count": 4,
+        "img": "/img/category-9.svg"
+    },
+    {
+        "key": "cate_id",
+        "category": "freshfruit",
+        "title": "Fresh Fruit",
+        "count": 4,
+        "img": "/img/category-5.svg"
+    },
+    {
+        "key": "cate_id",
+        "category": "coffee",
+        "title": "Coffee & Water",
+        "count": 4,
+        "img": "/img/category-2.svg"
+    }
+]

@@ -10,12 +10,12 @@
                 </div>
 
                 <div class="header-top-mid">
-                    <div class="input-search-wrap">
-                        <input class="input-search js-search-product" type="search" placeholder="Search for items...">
-                        <button onclick="searchProduct()" class="icon-search-header js-submit-search">
+                    <form action="/shop" class="input-search-wrap">
+                        <input class="input-search js-search-product" name="q" placeholder="Search for items...">
+                        <button type="submit" class="icon-search-header js-submit-search">
                             <i class="fa-solid fa-magnifying-glass "></i>
                         </button>
-                    </div>
+                    </form>
 
                     <div class="header-nav">
                         <ul class="nav-list">
@@ -23,14 +23,14 @@
                                 <a class=" nav-link nav-link-pc  js-page-home" href="/">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-link-pc js-page-shop">Shop</a>
+                                <a class="nav-link nav-link-pc js-page-shop" href="/shop">Shop</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link nav-link-pc js-page-about">About</a>
+                                <a class="nav-link nav-link-pc js-page-about" href="/about">About</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link nav-link-pc js-page-contact">Contact</a>
+                                <a class="nav-link nav-link-pc js-page-contact" href="/contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -63,7 +63,9 @@
                         </div>
                     </div>
                     <div class="account-wrap js-login-btn">
-                        <img src="/img/icon-user.svg" alt="">
+                        <a href="/register">
+                            <img src="/img/icon-user.svg" alt="">
+                        </a>
                     </div>
                     <!-- Thay đổi icon user -->
                     <div class="header-action-logged">

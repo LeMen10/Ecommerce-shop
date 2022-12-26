@@ -67,10 +67,6 @@ ul {
 .wrapper {
   overflow: hidden; }
 
-.none-product-list {
-  font-size: 24px;
-  padding-left: 12px; }
-
 .color-text {
   color: #253D4E; }
 
@@ -110,6 +106,25 @@ ul {
 
 .open-page {
   display: block; }
+
+.toTop {
+  position: fixed;
+  padding: 10px 13px;
+  z-index: 2;
+  font-size: 15px;
+  bottom: 30px;
+  right: 30px;
+  border: 2px solid #29c16a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #49bb84;
+  background-color: #fff;
+  rotate: 270deg; }
+
+.toTop:hover {
+  cursor: pointer; }
 
 .open-modal-delivery,
 .open-modal-history {
@@ -254,14 +269,14 @@ ul {
   font-size: 15px; }
 
 input:focus {
-  outline: 0; }
+  outline: none; }
 
 .icon-search-header {
   width: 11%;
   text-align: center;
   background-color: #5ece98;
   color: #fff;
-  padding: 11px 0;
+  padding: 10px 0;
   font-size: 18px;
   border-radius: 22px;
   margin-right: 2px;
